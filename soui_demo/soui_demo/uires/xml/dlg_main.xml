@@ -1,0 +1,51 @@
+﻿<SOUI name="mainWindow" 
+      title="@string/title" 
+      bigIcon="ICON_LOGO:32" 
+      smallIcon="ICON_LOGO:16" 
+      width="1000" height="700"  
+      margin="5,5,5,5"  
+      resizable="1" 
+      wndType="appMain"
+      appWnd="1"
+      translucent="1">
+  <root skin="_skin.sys.wnd.bkgnd" cache="1">
+    <caption pos="0,0,-0,30" show="1" font="adding:0">
+      <icon pos="10,8" src="ICON_LOGO:16"/>
+      <text name="main_title" pos="29,9">soui_demo</text>
+      <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
+      <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
+      <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
+      <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
+    </caption>
+    <caption pos="1,[0,-1,@30" colorBkgnd="rgb(200,200,200)">
+      <button name="btn_file" pos="0,0,@100,-0" text="文件" focusable="0"/>
+      <button name="btn_edit" pos="[0,0,@100,-0" text="编辑" focusable="0"/>
+      <button name="btn_view" pos="[0,0,@100,-0" text="视图" focusable="0"/>
+      <button name="btn_project" pos="[0,0,@100,-0" text="项目" focusable="0"/>
+      <button name="btn_build" pos="[0,0,@100,-0" text="生成" focusable="0"/>
+      <button name="btn_debug" pos="[0,0,@100,-0" text="调试" focusable="0"/>
+      <button name="btn_dialog" pos="[0,0,@100,-0" text="窗口" focusable="0"/>
+      <button name="btn_help" pos="[0,0,@100,-0" text="帮助" focusable="0"/>
+    </caption>
+    <caption pos="1,[0,-1,@40" colorBkgnd="rgb(188,188,188)">
+    </caption>
+    <caption pos="1,[0,-1,-31" colorBkgnd="rgb(100,100,100)">
+      <caption name="cap_1" pos="0,1,|-0,|0" colorBkgnd="rgb(255,255,255)">
+        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption1</text>
+      </caption>
+      <caption name="cap_2" pos="[1,{0,-0,|0" colorBkgnd="rgb(255,255,255)">
+        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption2</text>
+      </caption>
+      <caption name="cap_3" pos="0,[1,|0,-0" colorBkgnd="rgb(255,255,255)">
+        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption3</text>
+      </caption>
+      <caption name="cap_4" pos="[1,{0,-0,-0" colorBkgnd="rgb(255,255,255)">
+        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption4</text>
+      </caption>
+    </caption>
+    <caption pos="1,[0,-1,-1" colorBkgnd="rgb(200,200,200)">
+      <text name="select_cap" pos="0,0,-0,-0" align="center" valign="center" font="size:14"></text>
+    </caption>
+<shellnotifyicon id="110" menu="SMENU:menu_tray" ico="ICON_LOGO:16" tip="110"/>
+  </root>
+</SOUI>
