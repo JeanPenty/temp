@@ -1,0 +1,10 @@
+<menuRoot
+margin="8,9,8,17"
+iconSize="10,10"
+textOffset="10"
+itemHeight="30"
+iconBarWidth="30"
+minWidth="140"
+maxWidth="400"
+trCtx="MenuCtx"/>
+

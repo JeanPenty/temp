@@ -29,21 +29,7 @@
     </caption>
     <caption pos="1,[0,-1,@40" colorBkgnd="rgb(188,188,188)">
     </caption>
-    <caption pos="1,[0,-1,-31" colorBkgnd="rgb(100,100,100)">
-      <caption name="cap_1" pos="0,1,|-0,|0" colorBkgnd="rgb(255,255,255)">
-        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption1</text>
-      </caption>
-      <caption name="cap_2" pos="[1,{0,-0,|0" colorBkgnd="rgb(255,255,255)">
-        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption2</text>
-      </caption>
-      <caption name="cap_3" pos="0,[1,|0,-0" colorBkgnd="rgb(255,255,255)">
-        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption3</text>
-      </caption>
-      <caption name="cap_4" pos="[1,{0,-0,-0" colorBkgnd="rgb(255,255,255)">
-        <text pos="0,0,-0,-0" align="center" valign="center" font="size:20">Caption4</text>
-      </caption>
-    </caption>
-    <caption pos="1,[0,-1,-1" colorBkgnd="rgb(200,200,200)">
+    <caption pos="1,-30,-1,-1" colorBkgnd="rgb(200,200,200)">
       <text name="select_cap" pos="0,0,-0,-0" align="center" valign="center" font="size:14"></text>
     </caption>
 <shellnotifyicon id="110" menu="SMENU:menu_tray" ico="ICON_LOGO:16" tip="110"/>

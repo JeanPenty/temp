@@ -48,6 +48,21 @@
     <None Include="uires\image\traymenu_icons.png">
       <Filter>SoUI Resource</Filter>
     </None>
+    <None Include="uires\xml\dlgBL.xml">
+      <Filter>SoUI Resource</Filter>
+    </None>
+    <None Include="uires\xml\dlgBR.xml">
+      <Filter>SoUI Resource</Filter>
+    </None>
+    <None Include="uires\xml\dlgTL.xml">
+      <Filter>SoUI Resource</Filter>
+    </None>
+    <None Include="uires\xml\dlgTR.xml">
+      <Filter>SoUI Resource</Filter>
+    </None>
+    <None Include="uires\xml\menu_template.xml">
+      <Filter>SoUI Resource</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="soui_demo.cpp">
@@ -63,6 +78,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="trayicon\SShellNofityHwnd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTopLeft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogBottomLeft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogBottomRight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTopRight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -85,6 +115,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="trayicon\SShellNofityHwnd2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTopLeft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogBottomLeft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogBottomRight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTopRight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDialogCallBack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

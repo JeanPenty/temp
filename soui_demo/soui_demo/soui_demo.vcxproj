@@ -113,11 +113,21 @@
     <None Include="uires\values\color.xml" />
     <None Include="uires\values\skin.xml" />
     <None Include="uires\values\string.xml" />
+    <None Include="uires\xml\dlgBL.xml" />
+    <None Include="uires\xml\dlgBR.xml" />
+    <None Include="uires\xml\dlgTL.xml" />
+    <None Include="uires\xml\dlgTR.xml" />
     <None Include="uires\xml\dlg_main.xml" />
+    <None Include="uires\xml\menu_template.xml" />
     <None Include="uires\xml\menu_tray.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DialogBottomLeft.cpp" />
+    <ClCompile Include="DialogBottomRight.cpp" />
+    <ClCompile Include="DialogTopLeft.cpp" />
+    <ClCompile Include="DialogTopRight.cpp" />
     <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="MenuWrapper.cpp" />
     <ClCompile Include="soui_demo.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -130,7 +140,13 @@
     <ResourceCompile Include="soui_demo.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DialogBottomLeft.h" />
+    <ClInclude Include="DialogBottomRight.h" />
+    <ClInclude Include="IDialogCallBack.h" />
+    <ClInclude Include="DialogTopLeft.h" />
+    <ClInclude Include="DialogTopRight.h" />
     <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="MenuWrapper.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="trayicon\SShellNofityHwnd2.h" />

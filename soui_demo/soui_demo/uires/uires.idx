@@ -4,6 +4,11 @@
   </UIDEF>
   <LAYOUT>
     <file name="XML_MAINWND" path="xml\dlg_main.xml"/>
+    
+    <file name="XML_DLG_TOPLEFT" path="xml\dlgTL.xml" />
+    <file name="XML_DLG_TOPRIGHT" path="xml\dlgTR.xml" />
+    <file name="XML_DLG_BOTTOMLEFT" path="xml\dlgBL.xml" />
+    <file name="XML_DLG_BOTTOMRIGHT" path="xml\dlgBR.xml" />
   </LAYOUT>
   
   <values>
@@ -20,5 +25,6 @@
   </ICON>
   <SMENU>
     <file name="menu_tray" path="xml\menu_tray.xml"/>
+    <file name="menu_template" path="xml\menu_template.xml"  />
   </SMENU>
 </resource>
